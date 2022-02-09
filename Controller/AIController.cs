@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using RPG.Combat;
 using RPG.Core;
 using RPG.Movement;
+using RPG.Attributes;
 
 namespace RPG.Control
 {
@@ -16,7 +15,6 @@ namespace RPG.Control
         [SerializeField] float waypointDwellTime = 3f;
         [Range(0,1)] [SerializeField] float patrolSpeedFraction=0.1f;
         //[Range(0,1)] [SerializeField] float chaseSpeedFraction=0.8f;
-
 
         Fighter fighter;
         Health health;
